@@ -13,13 +13,10 @@ public class AnalizadorSintactico {
         System.out.println("""
                 ---------------------
                 Analizador sintactico
-                Garcia Torres Adair
-                Partida Flores Yael Alejandro
-                4CM3
                 ---------------------
                 """);
 
-        int opcion = -1;
+        int opcion;
         String entrada;
         Scanner sc = new Scanner(System.in);
         do{

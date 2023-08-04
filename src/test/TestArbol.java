@@ -1,7 +1,6 @@
 package test;
 
 import arbol.Arbol;
-import auxiliar.Cadena;
 
 import java.util.List;
 

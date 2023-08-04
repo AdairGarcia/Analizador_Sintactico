@@ -41,9 +41,6 @@ public class Cadena {
         return this.entrada.charAt(0) == ' ';
     }
 
-    public boolean esFinCadena(){
-        return this.entrada.charAt(0) == '\0';
-    }
 
     public boolean esPuntoComa(){
         return this.entrada.charAt(0) == ';';
@@ -75,10 +72,6 @@ public class Cadena {
 
     public String getEntrada(){
         return this.entrada;
-    }
-
-    public void setEntrada(String entrada){
-        this.entrada = entrada;
     }
 
 }

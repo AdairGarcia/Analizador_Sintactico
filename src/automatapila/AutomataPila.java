@@ -9,7 +9,7 @@ public class AutomataPila {
     private final Stack<Character> pila; // Pila de caracteres que nos ayudara a realizar el analisis sintactico
 
     public AutomataPila() {
-        this.pila = new Stack<Character>();
+        this.pila = new Stack<>();
         this.pila.push('Z'); //Simbolo inicial de la pila, unicamente sera eliminado si se recibe el caracter de fin de codigo ';'
     }
     public AutomataPila(Cadena entrada) {
@@ -226,7 +226,7 @@ public class AutomataPila {
                 } else {
                     System.out.println("Error de sintaxis");
                 }
-            } else if(this.entrada.esEspacio()){;
+            } else if(this.entrada.esEspacio()){
                 this.entrada.siguienteCaracter();
                 this.q5(); // en este estado podemos ignorar espacios en blanco
             }
